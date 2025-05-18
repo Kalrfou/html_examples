@@ -17,5 +17,5 @@ Each page is linked from a central `index.html` page for easy navigation.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/html-elements-showcase.git
-cd html-elements-showcase
+git clone https://github.com/Kalrfou/html_examples.git
+cd html_examples
