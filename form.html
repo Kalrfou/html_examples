@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Elements</title>
+</head>
+<body>
+
+    <h2>1. Checkbox</h2>
+    <form>
+        <label><input type="checkbox" name="fruit" value="apple"> Apple</label><br>
+        <label><input type="checkbox" name="fruit" value="banana"> Banana</label><br>
+        <label><input type="checkbox" name="fruit" value="cherry"> Cherry</label>
+    </form>
+
+    <h2>2. Dropdown Menu</h2>
+    <form>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+
+    <h2>3. Popup Modal (Popcorn?)</h2>
+    <button onclick="document.getElementById('popup').style.display='block'">Show Popup</button>
+    <div id="popup" style="display:none; border:1px solid black; padding:10px; width:200px; background-color:lightyellow;">
+        <p>This is a popup box.</p>
+        <button onclick="document.getElementById('popup').style.display='none'">Close</button>
+    </div>
+
+    <h2>4. Radio Buttons</h2>
+    <form>
+        <label><input type="radio" name="gender" value="male"> Male</label><br>
+        <label><input type="radio" name="gender" value="female"> Female</label><br>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+    </form>
+
+    <h2>5. Textarea</h2>
+    <form>
+        <label for="comments">Your Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+    </form>
+
+</body>
+</html>

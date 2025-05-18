@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Elements Demo</title>
+</head>
+<body>
+       <!-- Navigation Menu -->
+    <nav>
+        <a href="#audio">Audio</a>|
+        <a href="#organized">Organized HTML</a>|
+        <a href="#tester">Form Tester</a>|
+        <a href="#testvideo">Test Video</a>
+    </nav>
+
+    <header>
+        <h1>HTML Elements Showcase</h1>
+        <p>Examples of audio, form, video, and organized structure.</p>
+        <hr>
+    </header>
+
+    <!-- 1. Audio -->
+    <section id="audio">
+        <h2>1. Audio</h2>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p><small>Source: <a href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" target="_blank">SoundHelix</a></small></p>
+    </section>
+
+    <!-- 2. Organized HTML Layout -->
+    <section id="organized">
+        <h2>2. Organized HTML Section</h2>
+        <article>
+            <h3>Article Title</h3>
+            <p>This section uses semantic tags like <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;header&gt;</code> for better structure.</p>
+        </article>
+    </section>
+
+    <!-- 3. Form Tester -->
+     <h5> We used &quot;section&quot;, &quot;fieldset&quot; and &quot;form&quot;</h5>
+    <section id="tester">
+        <fieldset>
+        <legend> Form Tester</legend>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </fieldset>
+    </section>
+
+    <!-- 4. Test Video -->
+    <section id="testvideo">
+        <h2>4. Test Video</h2>
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p><small>Source: <a href="https://www.w3schools.com/html/mov_bbb.mp4" target="_blank">W3Schools - Big Buck Bunny Clip</a></small></p>
+    </section>
+
+    <footer>
+        <hr>
+        <p>Demo complete.</p>
+    </footer>
+
+</body>
+</html>
