@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grace Hopper: Pioneer in Computing</title>
+  <style>
+    :root {
+      --primary-color: #1a73e8;
+      --background-color: #f9f9f9;
+      --text-color: #333;
+      --accent-color: #00796b;
+      --border-radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: var(--primary-color);
+      padding: 0.5rem;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      list-style-type: none;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.4rem 0.8rem;
+      border-radius: var(--border-radius);
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    header {
+      text-align: center;
+      margin: 1rem auto;
+    }
+
+    header img {
+      width: 200px;
+      height: auto;
+      border-radius: var(--border-radius);
+      margin-top: 1rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+    }
+
+    h2 {
+      margin-bottom: 0.5rem;
+      color: var(--primary-color);
+    }
+
+    ul {
+      margin-top: 1rem;
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+
+    table th,
+    table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    table th {
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: var(--border-radius);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    form label {
+      display: block;
+      margin: 0.5rem 0 0.2rem;
+      font-weight: bold;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: var(--border-radius);
+      margin-bottom: 1rem;
+    }
+
+    form button {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    form button:hover {
+      background-color: #155ab6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-top: 1px solid #ccc;
+      font-size: 0.9rem;
+    }
+
+    /* Floating Home Button */
+    .home-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--primary-color);
+      color: white;
+      font-size: 24px;
+      padding: 12px 16px;
+      border-radius: 50%;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: background 0.3s ease;
+      z-index: 1000;
+    }
+
+    .home-button:hover {
+      background-color: #0c56d0;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      table th, table td {
+        font-size: 0.9rem;
+      }
+
+      form button {
+        width: 100%;
+      }
+
+      .home-button {
+        font-size: 20px;
+        padding: 10px 14px;
+      }
+    }
+  </style>
+</head>
+<body id="top">
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#contributions">Contributions</a></li>
+      <li><a href="#timeline">Timeline</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Grace Hopper</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg" alt="Grace Hopper">
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <article>
+      <section>
+        <p>Grace Hopper (1906–1992) was a computer scientist and U.S. Navy rear admiral. She pioneered the development of COBOL and popularized the term "debugging."</p>
+      </section>
+
+      <section id="contributions">
+        <h2>Key Contributions</h2>
+        <ul>
+          <li>Developed the first compiler for a programming language.</li>
+          <li>Popularized machine-independent programming languages.</li>
+          <li>Received the Presidential Medal of Freedom in 2016 (posthumously).</li>
+        </ul>
+      </section>
+
+      <section id="timeline">
+        <h2>Timeline</h2>
+        <table>
+          <tr><th>Year</th><th>Milestone</th></tr>
+          <tr><td>1944</td><td>Worked on Harvard Mark I computer.</td></tr>
+          <tr><td>1952</td><td>Created the first compiler.</td></tr>
+          <tr><td>1986</td><td>Retired from the U.S. Navy as a rear admiral.</td></tr>
+        </table>
+      </section>
+
+      <section>
+        <p>Learn more about <a href="https://en.wikipedia.org/wiki/COBOL" target="_blank">COBOL</a>, the language she helped create.</p>
+      </section>
+    </article>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Home Icon -->
+  <a href="#top" class="home-button" title="Back to Top">🏠</a>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Grace Hopper Tribute Page
+  </footer>
+
+</body>
+</html>
