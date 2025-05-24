@@ -1,68 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>HTML Elements Index</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 30px;
-            background-color: #f9f9f9;
-        }
-        h1 {
-            color: #333;
-        }
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-        li {
-            margin: 10px 0;
-        }
-        a {
-            text-decoration: none;
-            color: #007BFF;
-            font-size: 1.1em;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .section-title {
-            margin-top: 30px;
-            font-size: 1.3em;
-            color: #222;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Khaled Alrfou - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { padding-top: 70px; }
+    .section-title { margin-top: 50px; margin-bottom: 30px; }
+  </style>
 </head>
 <body>
 
-    <h1>HTML Elements Index Page</h1>
-
-    <p>Select a page to view:</p>
-
-    <div>
-        <div class="section-title"><a href="grace_hopper.html" target="_blank">Grace Hopper</a></div>
-        <div class="section-title">📋 Tables</div>
-        <ul>
-            <li><a href="tableSpan.html" target="_blank">Tables</a></li>
-        </ul>
-
-        <div class="section-title">📝 Lists</div>
-        <ul>
-            <li><a href="list.html" target="_blank">Lists</a></li>
-        </ul>
-
-        <div class="section-title">🔘 Form Elements</div>
-        <ul>
-            <li><a href="form.html" target="_blank">Form</a></li>
-
-        </ul>
-
-        <div class="section-title">🎧 Media & Layout</div>
-        <ul>
-            <li><a href="orginzed.html" target="_blank">Audio, Video, Forms, and Structured Layout</a></li>
-        </ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Dr. Khaled Alrfou</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
+        <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="example.html" target="_blank">CPSC-24700 examples</a></li>
+      </ul>
     </div>
+  </div>
+</nav>
 
+<div class="container">
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I am Dr. Khaled Alrfou, Assistant Professor of Computer Science at Lewis University (ABQ campus). With a PhD in Engineering from UWM, I bring 8+ years of experience as a developer and a strong research background in AI, NLP, and Federated Learning. I am passionate about teaching and mentoring students in areas such as algorithms, databases, and web development.</p>
+  </section>
+
+  <section id="teaching">
+    <h2 class="section-title">Teaching</h2>
+    <ul>
+      <li>Artificial Intelligence</li>
+      <li>Database Systems</li>
+      <li>Web and Distributed Programming</li>
+      <li>Introduction to NLP</li>
+    </ul>
+  </section>
+
+  <section id="research">
+    <h2 class="section-title">Research</h2>
+    <p>My research spans Natural Language Processing, Federated Learning, and Machine Learning. I have over 150 citations and more than 5 publications. I am currently preparing a submission for the <em>Multimedia Tools and Applications</em> journal.</p>
+  </section>
+  <!--
+  <section id="projects">
+    <h2 class="section-title">Selected Projects</h2>
+    <ul>
+      <li><strong>Maze Solvers</strong>: Implemented DFS, BFS, A*, and Hill Climbing algorithms for pathfinding.</li>
+      <li><strong>Word Embedding Analysis</strong>: Comparative study of Word2Vec and GloVe.</li>
+      <li><strong>Web Development</strong>: Teaching web app development with CSS, HTML, JavaScript.</li>
+      <li><strong>Database Labs</strong>: Custom lab assignments focusing on schema creation and query execution.</li>
+    </ul>
+  </section>
+-->
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:kalrfou@lewisu.edu">kalrfou@lewisu.edu</a></p>
+    <p>Location: Lewis University, New Mexico Campus</p>
+  </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
